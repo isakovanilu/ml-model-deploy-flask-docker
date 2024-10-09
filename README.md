@@ -12,18 +12,17 @@ Docker
 Python 3.11
 Installation
 1. Clone the repository:
-bash
-Copy code
-git clone <repository-url>
-cd <repository-folder>
+```
+git clone url
+```
 2. Build the Docker image:
-bash
-Copy code
+```
 docker build -t my-fastapi-app .
+```
 3. Run the Docker container:
-bash
-Copy code
+```
 docker run -p 8000:8000 my-fastapi-app
+```
 This will start the FastAPI application and make it accessible on http://localhost:8000.
 
 
